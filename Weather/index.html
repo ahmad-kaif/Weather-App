@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Weather APP</title>
+
+</head>
+<body>
+    <div class="navbar">
+      <h1>Weather Forcast App</h1>
+    </div>
+    <hr>
+    <div class="card">
+      <h1 id="city">City Name</h1>
+      <div id="cloud-pic"> <img id="pic" src="./images/clouds.png" alt=""></div>
+      <form class="search" action="" >
+        <input id="input" placeholder=" Type Here" type="text">
+        <button id="click">Search</button>
+      </form>
+      <!-- <div class="search">
+        <input id="search" placeholder=" Type Here" type="text">
+        <button id="click">Search</button>
+      </div> -->
+      <div id="info">
+        <button id="humidity" class="button">
+          <img style="width: 22px; margin: 10px;" src="./images/humidity.png" alt="">
+          <p>Humidity</p>
+        </button>
+        <button id="temp" class="button">
+          <p>Temp</p>
+        </button>
+        <button id="speed" class="button">
+          <img style="width: 22px; margin: 10px;" src="./images/wind.png" alt="">
+          <p>Speed</p>
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
