@@ -8,7 +8,7 @@ const humidity =document.querySelector('#humidity');
 const pic = document.querySelector('#pic');
 console.log(pic);
 
-let url = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=';
+let url = 'your url';
 let cityName;
 let key = '7b7393e188f16ef866c4c7861f882689'
 
